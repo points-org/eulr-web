@@ -1,0 +1,166 @@
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ant-divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dark {
+  font-family: "PingFangSC-Semibold, PingFang SC";
+
+  .svg-icon {
+    cursor: pointer;
+  }
+
+  .ant-layout-sider {
+    background: #ffffff;
+    box-shadow: 20px 12px 40px 0px rgba(0, 0, 0, 0.02);
+    //background-image: url("../assets/menu_bg.png");
+    //background-position: left bottom;
+    //background-repeat: no-repeat;
+    //background-size: 75%;
+  }
+
+  .ant-layout-sider-children {
+    padding: 0px 8px;
+  }
+
+  .ant-layout {
+    background: #F4F7FC;
+  }
+
+  .ant-menu {
+    color: #7C88B1;
+    background: transparent;
+
+    .svg-icon {
+      width: 18px;
+      height: 16px;
+    }
+
+    .ant-menu-item {
+      .ant-menu-item-icon {
+        color: #7C88B1;
+      }
+
+      a {
+        color: #7C88B1;
+        font-weight: 400;
+        line-height: 22px;
+        font-size: 16px;
+      }
+    }
+
+    .ant-menu-submenu-open {
+      color: #7C88B1;
+    }
+
+    .ant-menu-submenu-title:hover {
+      color: #7C88B1;
+    }
+
+    .ant-menu-submenu-title > .ant-menu-submenu-arrow::before {
+      background: #ACAFC9;
+    }
+
+    .ant-menu-submenu-title > .ant-menu-submenu-arrow::after {
+      background: #ACAFC9;
+    }
+
+    .ant-menu-sub {
+      background: transparent;
+    }
+  }
+
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: rgba(68, 116, 250, 0.1);
+    border-radius: 4px;
+
+    .ant-menu-item-icon, a {
+      color: #4C92FF;
+      font-weight: 600;
+    }
+  }
+
+  .ant-menu-dark .ant-menu-item:hover {
+
+    .ant-menu-item-icon, a {
+      color: #4C92FF;
+    }
+  }
+
+}
+
+.header {
+  .title {
+    font-size: 32px;
+    font-family: Biko-Bold, Biko;
+    font-weight: bold;
+    color: #303778;
+  }
+}
+
+.ant-input {
+  background: #FAFCFE;
+  border-radius: 2px;
+  border: 1px solid #D2D5E1;
+}
+
+
+.bgc {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin: 0px 0px 10px !important;
+}
+
+.text-left {
+  text-align: left;
+}
+
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.menuSelect {
+  .ant-select-dropdown-menu-item {
+    float: left;
+    width: 45%;
+  }
+}
+
+.ant-btn-link {
+  padding: 0px 5px;
+}
+
+.ant-modal-header {
+  text-align: left;
+}
+
+.ant-input {
+  width: 200px;
+}
